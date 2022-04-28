@@ -1,3 +1,11 @@
+### 一键安装
+```
+bash <(curl -Ls https://raw.githubusercontent.com/xieruan/XrayR/main/sh/install.sh)
+```
+
+因为某些原因作者删库了，备份一份0.8.0的
+
+
 # XrayR
 [![](https://img.shields.io/badge/TgChat-@XrayR讨论-blue.svg)](https://t.me/XrayR_project)
 [![](https://img.shields.io/badge/Channel-@XrayR通知-blue.svg)](https://t.me/XrayR_channel)
@@ -50,10 +58,7 @@ A Xray backend framework that can easily support many panels.
 | [ProxyPanel](https://github.com/ProxyPanel/ProxyPanel) | √     | √      | √                              |
 
 ## 软件安装
-### 一键安装
-```
-bash <(curl -Ls https://raw.githubusercontent.com/xieruan/XrayR-release/master/install.sh)
-```
+
 ### 使用Docker部署软件
 [Docker部署教程](https://crackair.gitbook.io/xrayr-project/xrayr-xia-zai-he-an-zhuang/install/docker)
 
