@@ -2,6 +2,7 @@ package panel
 
 import (
 	"encoding/json"
+	"github.com/xieruan/XrayR/app/mydispatcher"
 	io "io/ioutil"
 	"log"
 	"sync"
@@ -11,7 +12,6 @@ import (
 	"github.com/xieruan/XrayR/api/proxypanel"
 	"github.com/xieruan/XrayR/api/sspanel"
 	"github.com/xieruan/XrayR/api/v2board"
-	"github.com/xieruan/XrayR/app/mydispatcher"
 	_ "github.com/xieruan/XrayR/main/distro/all"
 	"github.com/xieruan/XrayR/service"
 	"github.com/xieruan/XrayR/service/controller"
